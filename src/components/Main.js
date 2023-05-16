@@ -7,7 +7,7 @@ import Show from "../pages/Show";
 function Main(props) {
     const [ people, setPeople ] = useState(null)
     // const URL = "http://localhost:4000/people/"
-    const URL = "https://person-app-backend-f46o.onrender.com/people/"
+    const URL = "http://person-app-backend-f46o.onrender.com/people/"
     const getPeople = async () => {
         const response = await fetch(URL);
         const data = await response.json();
