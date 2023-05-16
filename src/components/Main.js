@@ -51,7 +51,7 @@ function Main(props) {
       }
 
 
-      useEffect(() => getPeople, []);
+      useEffect(() => getPeople(), []);
 
     return (
         <main>
