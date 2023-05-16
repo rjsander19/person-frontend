@@ -1,7 +1,8 @@
+import {useEffect, useState} from "react";
 import { Route, Routes } from "react-router-dom";
 import Index from "../pages/Index";
 import Show from "../pages/Show";
-import React, {useEffect, useState} from "react";
+
 
 function Main(props) {
     const [ people, setPeople ] = useState(null)
